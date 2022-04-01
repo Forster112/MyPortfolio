@@ -1,3 +1,22 @@
+@media screen and (max-width: 400px) {
+    .control{
+        margin: .7rem .2rem !important;
+        width: 43px !important;
+        height: 43px !important;
+    }
+
+    .contact-content-con{
+        .left-contact{
+            i{
+                font-size: 1rem !important;
+            }
+            .contact-item{
+                font-size: .58rem !important;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 570px) {
 
     .about-container{
@@ -246,6 +265,8 @@
         }
     }
 }
+
+
 
 @media screen and (max-width: 970px) {
     .section{

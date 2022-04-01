@@ -1003,6 +1003,20 @@ section {
   font-size: 6.3rem;
 }
 
+@media screen and (max-width: 400px) {
+  .control {
+    margin: .7rem .2rem !important;
+    width: 43px !important;
+    height: 43px !important;
+  }
+  .contact-content-con .left-contact i {
+    font-size: 1rem !important;
+  }
+  .contact-content-con .left-contact .contact-item {
+    font-size: .58rem !important;
+  }
+}
+
 @media screen and (max-width: 570px) {
   .about-container {
     -ms-grid-columns: 0.5fr;
