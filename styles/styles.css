@@ -1003,7 +1003,7 @@ section {
   font-size: 6.3rem;
 }
 
-@media screen and (max-width: 455px) {
+@media screen and (max-width: 517px) {
   .control {
     margin: .7rem .3rem !important;
     width: 45px !important;
@@ -1013,7 +1013,7 @@ section {
     font-size: 1rem !important;
   }
   .contact-content-con .left-contact .contact-item {
-    font-size: .58rem !important;
+    font-size: .8rem !important;
   }
 }
 
