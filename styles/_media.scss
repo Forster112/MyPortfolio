@@ -1,239 +1,21 @@
-@media screen and (max-width: 525px) {
-    .control{
-        margin: .7rem .3rem !important;
-        width: 45px !important;
-        height: 45px !important;
-    }
-
-    .contact-content-con{
-        .left-contact{
-            i{
-                font-size: 1rem !important;
-            }
-            .contact-item{
-                font-size: 1rem !important;
-            }
-        }
-    }
-    .section{
-        padding: 3rem 2.5rem 7rem !important;
-    }
-}
-
-@media screen and (max-width: 570px) {
-
-    .about-container{
-        grid-template-columns: 0.5fr;
-        .right-about{
-            grid-template-columns: 1fr;
-            padding-top: 1.5rem !important;
-        }
-        .left-about{
-            padding-right: 0;
-            p{
-                padding-left: 0;
-            }
-        }
-    }
-
-    .timeline{
-        grid-template-columns: 1fr;
-        padding-bottom: 6rem;
-        margin-left: 10px;
-    }
-
-    .portfolios{
-        grid-template-columns: repeat(1, 1fr) !important;
-        padding-bottom: 6rem;
-        .hover-item{
-            opacity: 1 !important;
-            transform: scale(0.5);
-            
-        }
-    }
-
-    .blogs{
-        grid-template-columns: repeat(1, 1fr) !important;
-        padding-bottom: 6rem;
-    }
-
-    .contact-content-con{
-        flex-direction: column;
-        .right-contact{
-            margin-left: 0;
-            margin-top: 2.5rem;
-        }
-    }
-
-    .contact-content-con .right-contact .i-c-2{
-        flex-direction: column;
-    }
-    .contact-content-con .right-contact .i-c-2 :last-child{
-        margin-left: 0;
-        margin-top: 1.5rem;
-    }
-
-    .section{
-        padding: 1rem 1.5rem;
-    }
-
-    .main-title{
-        h2{
-            font-size: 2.5rem !important;
-            span{
-                font-size: 2.5rem !important;
-            }
-            .bg-text{
-                font-size: 2.5rem !important;
-            }
-        }
-    }
-
-}
-
-
-@media screen and (max-width: 700px) {
-
-    .about-container{
-        grid-template-columns: 1fr;
-        .right-about{
-            grid-template-columns: 1fr;
-            padding-top: 2.5rem;
-        }
-        .left-about{
-            padding-right: 0;
-            h4{
-                font-size: 1.5rem;
-            }
-            p{
-                padding-left: 0;
-            }
-        }
-    }
-
-    .timeline{
-        grid-template-columns: 1fr;
-        padding-bottom: 6rem;
-    }
-
-    .portfolios{
-        grid-template-columns: 1fr;
-        padding-bottom: 6rem;
-        .hover-item{
-            opacity: 0.5 !important;
-            transform: scale(1) !important;
-        }
-    }
-
-    .blogs{
-        grid-template-columns: 1fr;
-        padding-bottom: 6rem;
-    }
-
-    .contact-content-con{
-        flex-direction: column;
-        .left-contact{
-            h4{
-                font-size: 1.5rem;
-            }
-        }
-        .right-contact{
-            margin-left: 0;
-            margin-top: 2.5rem;
-        }
-    }
-
-    .contact-content-con .right-contact .i-c-2{
-        flex-direction: column;
-    }
-    .contact-content-con .right-contact .i-c-2 :last-child{
-        margin-left: 0;
-        margin-top: 1.5rem;
-    }
-
-    .section{
-        padding: 3rem 2.5rem 7rem !important;
-    }
-
-    .main-title{
-        h2{
-            font-size: 2rem;
-            span{
-                font-size: 2.5rem;
-            }
-            .bg-text{
-                font-size: 3.3rem;
-            }
-        }
-    }
-
-}
-
-@media screen and (max-width: 1432px) {
+@media screen and (min-width: 971px) and (max-width: 1432px) {
     header{
         padding: 0 !important;
     }
     .section{
         padding: 7rem 11rem;
     }
-    .contact-content-con{
-        flex-direction: column;
-        .right-contact{
-            margin-left: 0;
-            margin-top: 2.5rem;
-        }
-    }
-
-    .contact-content-con .right-contact .i-c-2{
-        flex-direction: column;
-    }
-    .contact-content-con .right-contact .i-c-2 :last-child{
-        margin-left: 0;
-        margin-top: 1.5rem;
-    }
 }
 
-@media screen and (max-width: 1300px) {
-    .about-container{
-        grid-template-columns: 1fr;
-        .right-about{
-            padding-top: 2.5rem;
-        }
-    }
-
-    .port-text{
-        margin-top: 3rem;
-    }
-    .portfolios{
-        grid-template-columns: 1fr 1fr;
-    }
-    .blogs{
-        grid-template-columns: 1fr 1fr;
-        margin-top: 5rem;
-    }
-
-    .main-title{
-        h2{
-            font-size: 4rem;
-            span{
-                font-size: 4rem;
-            }
-            .bg-text{
-                font-size: 5rem;
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 1620px) {
-    .contact{
-        padding: 3rem 11rem;
+@media screen and (min-width: 971px) and (max-width: 1200px){
+    .section{
+        padding: 3rem 8rem;
     }
 }
 
 @media screen and (max-width: 970px) {
     .section{
-        padding: 7rem 6rem;
+        padding: 7rem 3rem;
     }
     header{
         padding: 0;
@@ -284,11 +66,31 @@
 }
 
 
+//general application
+@media screen and (max-width: 1432px) {
+    .contact-content-con{
+        flex-direction: column;
+        .left-contact{
+            h4{
+                font-size: 1.5rem;
+            }
+        }
+        .right-contact{
+            margin-left: 0;
+            margin-top: 2.5rem;
+        }
+    }
+
+    .contact-content-con .right-contact .i-c-2{
+        flex-direction: column;
+    }
+    .contact-content-con .right-contact .i-c-2 :last-child{
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
+}
 
 @media screen and (max-width: 970px) {
-    .section{
-        padding: 7rem 3rem;
-    }
     .about-stats{
         .progress-bars{
             grid-template-columns: 1fr;
@@ -301,7 +103,134 @@
                 font-size: 3rem;
             }
             .bg-text{
-                font-size: 4rem;
+                display: none;
+            }
+        }
+    }
+    .contact-info{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .control{
+        margin: .7rem .3rem !important;
+        width: 45px;
+        height: 45px;
+    }
+
+    .contact-content-con{
+        .left-contact{
+            h4{
+                font-size: 1.3rem;
+            }
+            p{
+                margin: 0.2rem 0;
+                font-size: 0.9rem;
+                line-height: 1.5rem;
+            }
+            i{
+                font-size: 1rem !important;
+            }
+            .contact-info{
+                .contact-item{
+                    p{
+                        margin: .2rem 0;
+                        padding: 0;
+                    }
+                    .icon{
+                        grid-template-columns: 20px 1fr;
+                        i{
+                            font-size: .8rem !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section{
+        padding: 5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            grid-template-columns: 1fr;
+            padding-top: 1.5rem;
+        }
+        .left-about{
+            padding-right: 0;
+            p{
+                padding-left: 0;
+            }
+        }
+    }
+
+    .timeline{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+        margin-left: 20px;
+    }
+
+    .portfolios{
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 6rem;
+        .hover-item{
+            opacity: 0.5 !important;
+            transform: scale(1) !important;
+        }
+    }
+
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 6rem;
+    }
+
+    .contact-content-con{
+        flex-direction: column;
+        .right-contact{
+            margin-left: 0;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .contact-content-con .right-contact .i-c-2{
+        flex-direction: column;
+    }
+    .contact-content-con .right-contact .i-c-2 :last-child{
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
+    .main-title{
+        h2{
+            font-size: 2.5rem;
+            span{
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .control{
+        margin: .6rem .2rem !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .contact-info{
+        .contact-item{
+            p{
+                margin: .1rem 0;
+                padding: 0;
+                font-size: .6rem;
+            }
+            .icon{
+                grid-template-columns: 20px 1fr;
+                font-size: 0.6rem;
             }
         }
     }
