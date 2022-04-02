@@ -1003,6 +1003,16 @@ section {
   font-size: 6.3rem;
 }
 
+@media screen and (min-width: 1433px) and (max-width: 1620px) {
+  .section {
+    margin: 0;
+    padding: 3rem 12rem;
+  }
+  header {
+    padding: 0 !important;
+  }
+}
+
 @media screen and (min-width: 971px) and (max-width: 1432px) {
   header {
     padding: 0 !important;
