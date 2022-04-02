@@ -1,4 +1,4 @@
-@media screen and (max-width: 517px) {
+@media screen and (max-width: 525px) {
     .control{
         margin: .7rem .3rem !important;
         width: 45px !important;
@@ -11,7 +11,7 @@
                 font-size: 1rem !important;
             }
             .contact-item{
-                font-size: .8rem !important;
+                font-size: 1rem !important;
             }
         }
     }
@@ -99,6 +99,9 @@
         }
         .left-about{
             padding-right: 0;
+            h4{
+                font-size: 1.5rem;
+            }
             p{
                 padding-left: 0;
             }
@@ -126,6 +129,11 @@
 
     .contact-content-con{
         flex-direction: column;
+        .left-contact{
+            h4{
+                font-size: 1.5rem;
+            }
+        }
         .right-contact{
             margin-left: 0;
             margin-top: 2.5rem;
@@ -141,7 +149,7 @@
     }
 
     .section{
-        padding: 2rem 2.5rem;
+        padding: 3rem 2.5rem 7rem !important;
     }
 
     .main-title{
