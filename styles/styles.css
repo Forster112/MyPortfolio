@@ -1165,14 +1165,31 @@ section {
   .about-container .left-about {
     padding-right: 0;
   }
+  .about-container .left-about h4 {
+    font-size: 1rem;
+  }
   .about-container .left-about p {
     padding-left: 0;
+    font-size: .9rem;
   }
   .timeline {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     padding-bottom: 6rem;
-    margin-left: 20px;
+    margin-left: 45px;
+  }
+  .timeline .timeline-item .tl-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .timeline .timeline-item .tl-icon i {
+    font-size: 1rem;
+  }
+  .timeline .timeline-item h5 {
+    font-size: 1.1rem;
+  }
+  .timeline .timeline-item p {
+    font-size: 0.9rem;
   }
   .portfolios {
     -ms-grid-columns: (1fr)[1];
