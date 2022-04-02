@@ -1015,6 +1015,9 @@ section {
   .contact-content-con .left-contact .contact-item {
     font-size: 1rem !important;
   }
+  .section {
+    padding: 3rem 2.5rem 7rem !important;
+  }
 }
 
 @media screen and (max-width: 570px) {
@@ -1221,6 +1224,12 @@ section {
   }
   .main-title h2 .bg-text {
     font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 1620px) {
+  .contact {
+    padding: 3rem 11rem;
   }
 }
 

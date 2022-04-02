@@ -15,6 +15,9 @@
             }
         }
     }
+    .section{
+        padding: 3rem 2.5rem 7rem !important;
+    }
 }
 
 @media screen and (max-width: 570px) {
@@ -219,6 +222,12 @@
                 font-size: 5rem;
             }
         }
+    }
+}
+
+@media screen and (max-width: 1620px) {
+    .contact{
+        padding: 3rem 11rem;
     }
 }
 
