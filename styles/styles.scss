@@ -279,6 +279,7 @@ section{
             line-height: 2rem;
             padding: 1rem;
             color: var(--color-grey-1);
+            text-align: justify;
         }
         h4{
             font-size: 2rem;
@@ -322,19 +323,19 @@ section{
                         transition: var(--transition-ease);
                     }
                     .html{
-                        width: 68%;
+                        width: 70%;
                     }
                     .css{
-                        width: 45%;
+                        width: 60%;
                     }
                     .js{
-                        width: 10%;
+                        width: 30%;
                     }
                     .c{
-                        width: 5%;
+                        width: 15%;
                     }
                     .shell{
-                        width: 30%;
+                        width: 40%;
                     }
                 }
             }
