@@ -12,3 +12,9 @@ A portfolio about UDEMEZUE FORSTER CHIDIEBERE
 | My Projects | Contains some of my Programming Projects
 | My Blogs | Contains my blogs but empty
 | Contact Me | Contains my contact info and a feedback form space
+
+## Programming Languages Used
+* HTML
+* CSS
+* SCSS
+* JAVASCRIPT
