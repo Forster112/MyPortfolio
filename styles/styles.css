@@ -395,6 +395,7 @@ section {
   line-height: 2rem;
   padding: 1rem;
   color: var(--color-grey-1);
+  text-align: justify;
 }
 
 .about-container .left-about h4 {
@@ -462,23 +463,23 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 68%;
+  width: 85%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 45%;
+  width: 75%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 10%;
+  width: 45%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .c {
-  width: 5%;
+  width: 15%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .shell {
-  width: 30%;
+  width: 40%;
 }
 
 .stat-title {
