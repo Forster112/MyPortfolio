@@ -463,7 +463,7 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 85%;
+  width: 90%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
@@ -471,15 +471,19 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 45%;
+  width: 47%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .c {
-  width: 15%;
+  width: 10%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .shell {
   width: 40%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .python {
+  width: 32%;
 }
 
 .stat-title {
