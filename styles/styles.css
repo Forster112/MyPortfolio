@@ -18,9 +18,9 @@
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
-  --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
-  --transition-ease: all .4s ease-in-out;
-  --box-shadow-2: 0 3px 15px rgba(0,0,0,.2);
+  --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.3);
+  --transition-ease: all 0.4s ease-in-out;
+  --box-shadow-2: 0 3px 15px rgba(0, 0, 0, 0.2);
 }
 
 .light-mode {
@@ -100,16 +100,7 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: scaleAnim 1s ease-in-out;
-          animation: scaleAnim 1s ease-in-out;
-}
-@-webkit-keyframes scaleAnim {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
+  animation: scaleAnim 1s ease-in-out;
 }
 @keyframes scaleAnim {
   0% {
@@ -155,6 +146,43 @@ section {
   font-size: 1.2rem;
   color: var(--color-grey-2);
   pointer-events: none;
+}
+
+.theme-wrap {
+  position: relative;
+}
+.theme-wrap:hover .section__desc {
+  display: block;
+}
+.theme-wrap .section__desc {
+  display: none;
+  position: absolute;
+  left: -65px;
+  top: 25px;
+  font-size: 0.9rem;
+  background-color: var(--color-grey-3);
+  padding: 4px;
+  border-radius: 5px;
+}
+.theme-wrap .section__desc::after {
+  content: "";
+  position: absolute;
+  top: -7px;
+  bottom: 0;
+  width: 20px;
+  height: 43px;
+  right: 100%;
+  left: calc(100% - 7px);
+  transform: scaleX(-1);
+  background: radial-gradient(107% 100% at top left, transparent 96%, var(--color-grey-3)) top, radial-gradient(107% 100% at bottom left, transparent 96%, var(--color-grey-3)) bottom;
+  background-size: 50% 50.1%;
+  background-repeat: no-repeat;
+}
+.theme-wrap .large {
+  left: -80px;
+}
+.theme-wrap .small {
+  left: -60px;
 }
 
 .theme-btn {
@@ -640,7 +668,8 @@ section {
 .contact-content-con .right-contact .input-control {
   margin: 1.5rem 0;
 }
-.contact-content-con .right-contact .input-control input, .contact-content-con .right-contact .input-control textarea {
+.contact-content-con .right-contact .input-control input,
+.contact-content-con .right-contact .input-control textarea {
   border-radius: 30px;
   font-weight: 500;
   font-size: inherit;
@@ -955,5 +984,10 @@ section {
   .contact-info .contact-item .icon {
     grid-template-columns: 20px 1fr;
     font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 971px) {
+  .theme-wrap:hover .section__desc {
+    display: none;
   }
 }/*# sourceMappingURL=styles.css.map */
