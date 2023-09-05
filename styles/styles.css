@@ -689,8 +689,21 @@ section {
   margin-left: 1.5rem;
 }
 .contact-content-con .right-contact .submit-btn {
-  display: flex;
-  justify-content: flex-start;
+  position: relative;
+  width: 125px;
+  padding: 10px 0;
+  border-radius: 30px;
+  border: 1px solid var(--color-secondary);
+  background-color: var(--color-primary);
+  color: var(--color-grey0);
+  font-weight: 600;
+  font-size: 1.05rem;
+  transition: all 0.3s ease-in-out;
+}
+.contact-content-con .right-contact .submit-btn:hover {
+  background-color: var(--color-secondary);
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
 }
 
 /*Independent components*/
